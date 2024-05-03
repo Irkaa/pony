@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e9f8;
+}
+
+/* Header */
+header {
+    background-color: plum;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    max-height:50px;
+}
+
+
+.logo img {
+    max-width: 5rem;
+    height: auto;
+    display:flexbox;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    border:1px solid white;
+    border-radius: 50%;
+    padding:15px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: red;
+    cursor:pointer;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+}
+.hero {
+    padding:10px;
+    
+    border-radius:5%;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.cta-button {
+    display: inline-block;
+    background-color: #cb3bcb;
+    color: #131214;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #cb3bcb;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+    display:inline-block;
+    min-width: 20%;
+    padding: 5px;
+    border: 1px solid #585658;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30%;
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Dress Grid */
+.dress-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 35px;
+}
+
+.dress {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dress img {
+    margin:10px;
+    text-align: center;
+    max-width: 100%;
+    height: 50%;
+}
+
+.dress h3 {
+    margin-top: 30px;
+}
+
+.dress p {
+    color: #666;
+}
+
+.dress span {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top:20px;
+    width:100%;
+    height:50px;
+}
+
+.dress button {
+    display: relative;
+    width: 100%;
+    background-color: #cb3bcb;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dress button:hover {
+    background-color: #b044ee;
+}
+
+/* Footer */
+footer {
+    background-color: #cb3bcb;
+    padding: 20px;
+    text-align: center;
+}
